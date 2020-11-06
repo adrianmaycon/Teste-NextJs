@@ -1,0 +1,112 @@
+.containerEmbedHtml {
+    width: 100%;
+    max-width: 800px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 3px 5px 20px rgba(68, 68, 68, 0.5);
+    padding: 1.8rem;
+}
+
+.containerEmbedHtml #titleDiv{
+    margin: 20px 0;
+}
+
+.containerEmbedHtml header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.containerEmbedHtml header .icon{ 
+    font-size: 30px; 
+    cursor: pointer; 
+    color: rgba(68, 68, 68, 0.6);
+}
+
+.containerEmbedHtml main{ 
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-gap: 1rem;
+    align-items: flex-start;
+}
+
+.containerEmbedHtml main #primary{ 
+    width: 100%;
+    padding-left: 1rem;
+}
+
+.containerEmbedHtml main #secundary{ 
+    width: 100%;
+}
+
+.containerEmbedHtml main #secundary .prev{ 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 440px;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.containerEmbedHtml main #primary input{ 
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+.containerEmbedHtml main #primary p,
+.containerEmbedHtml main #primary label{ 
+    font-family: Lato;
+    font-size: 1rem;
+}
+
+.containerEmbedHtml main #primary p {
+    margin: 20px 0;
+}
+
+.containerEmbedHtml main #primary textarea{
+    width: 100%;
+    height: 150px;
+    resize: none;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+.containerEmbedHtml main #primary button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+    color: #02a95c;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 1rem;
+    background-color: #fff;
+    border: 1px solid #02a95c;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+.containerEmbedHtml main #primary button:hover{
+    color: #016b3a;
+    border: 1px solid #016b3a;
+}
+
+.containerEmbedHtml .divider{
+    width: 100%;
+    height: 1px;
+    background-color: rgba(68, 68, 68, 0.3);
+    margin: 0.5rem 0;
+}
+
+
+@media (max-width: 600px) {
+    .containerEmbedHtml {
+        width: 100vw;
+        height: 100vh;
+        max-width: 100%;
+        background-color: #ffffff;
+        border-radius: 0px;
+        padding: 1.8rem;
+        margin-top: 50px;
+    }
+}

@@ -1,0 +1,474 @@
+.containerConfigModal {
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 20px 0;
+    overflow: auto;
+}
+
+.containerConclusion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    width: 100%;
+}
+
+.containerConclusion header{
+    display: flex;
+    width: 90%;
+    max-width: 1150px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -60px;
+    margin-bottom: 20px;
+}
+
+.containerConclusion form{
+    width: 100%;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    max-width: 1200px;
+}
+
+.containerConclusion .division{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 1.6rem;
+    flex-direction: column; 
+    align-items: flex-start;  
+    padding: 0 25px;
+}
+
+.containerConclusion form #columnPrimary{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerConclusion form #columnPrimary .inputTitle{
+    width: 100%; 
+    height: 40px;
+    max-width: 754px;
+    background: #FFFFFF;
+    border: 1px solid #CFD4D2;
+    border-radius: 3px;
+    font-size: 24px;
+    line-height: 28px;
+    color: #444444;
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-bottom: 25px;
+    margin-top: 10px;
+}
+
+.containerConclusion form #columnPrimary .inputTitle::-webkit-input-placeholder{
+    color: #757575;
+}
+
+.containerConclusion #columnPrimary .cardRewarSpac + .cardRewarSpac{
+    margin-left: 20px;
+}
+
+.containerConclusion form #columnPrimary .divCloud{
+    display: flex;
+    opacity: 1;
+    height: 300px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0 5px 5px 0;
+    padding: 2px 5px;
+    position: absolute;
+    margin-top: 10px;
+    background: rgba(68, 68, 68, 0.4);
+    cursor: pointer;
+}
+
+.containerConclusion form #columnPrimary #divCloudSecundary{
+    border-radius: 5px 0 0 5px;
+}
+
+.containerConclusion form #columnPrimary .rewardDestaque{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+.containerConclusion form #columnPrimary .infor{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.containerConclusion form #columnPrimary .presentation,
+.containerConclusion form #columnPrimary #labelColor{
+    width: 100%;
+    max-width: 754px;
+    height: 480px;
+    margin-bottom: 20px;
+}
+
+.containerConclusion form #columnPrimary .title{
+    font-size: 24px;
+    line-height: 28px;
+    color: #444;
+}
+
+.containerConclusion .titleError{
+    font-size: 24px;
+    line-height: 28px;
+    color: var(--color-text-error);
+}
+
+.containerConclusion form #columnPrimary #labelColor h1{
+    font-size: 24px;
+    line-height: 28px;
+    color: rgba(68, 68, 68, 0.8);
+    margin-bottom: 40px;
+}
+
+.containerConclusion form #columnPrimary #labelColor #parag{
+    font-size: 18px;
+    line-height: 21px;
+    color: #444;
+    text-align: center;
+}
+
+.containerConclusion form #columnPrimary .presentation{
+    background-size: auto; 
+    background-color: #fafafa; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    border: 1px solid #CFD4D2;
+    border-radius: 5px;
+}
+
+.containerConclusion form #columnPrimary .presentation img,
+.containerConclusion form #columnPrimary .presentation iframe{
+    width: 754px; 
+    height: 480px; 
+    border-radius: 5px;
+}
+
+.containerConclusion form #columnPrimary .presentation img{ 
+    background-size: auto;   
+    border: 1px solid #CFD4D2;
+}
+
+.containerConclusion form #columnPrimary #labelColor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #FAFAFA;
+    border-radius: 5px;
+}
+
+.containerConclusion form #columnSecundary{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerConclusion .editor {
+    width: 100%; 
+    max-width: 750px; 
+    margin-top: 15px;
+}
+
+.containerConclusion form #columnPrimary .positionLink{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 754px;
+    margin-top: 10px;
+}
+
+.containerConclusion form #columnPrimary .userReward,
+.containerConclusion form #columnPrimary .userLink{
+    display: none;
+}
+
+.containerConclusion form footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    max-width: 900px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.containerConclusion form footer #description{
+    font-size: 20px;
+    line-height: 23px;
+    color: rgba(68, 68, 68, 0.8);
+    text-align: center;
+}
+
+.containerConclusion form .moreProject{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 95%;
+    max-width: 754px;
+    margin-top: 15px;
+}
+
+.containerConclusion form .moreProject div + div{
+    margin-top: 10px;
+}
+
+@media (max-width: 1225px) {
+    .containerConclusion form #columnPrimary .presentation,
+    .containerConclusion form #columnPrimary .presentation img,
+    .containerConclusion form #columnPrimary .presentation iframe{
+        width: 680px; 
+        height: 440px; 
+    }
+}
+
+@media (max-width: 1140px) {
+    .containerConclusion form #columnPrimary .presentation,
+    .containerConclusion form #columnPrimary .presentation img,
+    .containerConclusion form #columnPrimary .presentation iframe{
+        width: 620px; 
+        height: 380px; 
+    }
+}
+
+@media (max-width: 1080px) {
+    .containerConclusion form #columnPrimary .presentation,
+    .containerConclusion form #columnPrimary .presentation img,
+    .containerConclusion form #columnPrimary .presentation iframe{
+        width: 600px; 
+        height: 320px; 
+    }
+
+    .containerConclusion form #columnPrimary .divCloud{
+        height: 260px;
+    }
+}
+
+@media (max-width: 1050px) {
+    .containerConclusion form #columnPrimary .presentation,
+    .containerConclusion form #columnPrimary .presentation img,
+    .containerConclusion form #columnPrimary .presentation iframe{
+        width: 500px; 
+        height: 280px; 
+    }
+
+    .containerConclusion form #columnPrimary .divCloud{
+        height: 220px;
+    }
+}
+
+@media (max-width: 970px) {
+
+    .containerConclusion header{
+        margin-top: -30px;
+    }
+
+    .containerConclusion form #columnSecundary{
+        display: none;
+    }
+
+    .containerConclusion .division{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 4fr;
+        grid-gap: 1.6rem;
+        flex-direction: column; 
+        align-items: flex-start;  
+        padding: 0 25px;
+    }
+
+    .containerConclusion form #columnPrimary #labelColor{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: #FFF;
+        box-shadow: 3px 5px 20px rgba(68, 68, 68, 0.12);
+    }
+
+    .containerConclusion form #columnPrimary .positionLink{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        max-width: 754px;
+        margin-top: 10px;
+    }
+
+    .containerConclusion form #columnPrimary .userLink{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px 0;
+    }
+    
+    
+    .containerConclusion form #columnPrimary .userReward{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px 0;
+    }
+}
+
+@media (max-width: 696px) {
+
+    .containerConclusion form #columnPrimary #labelColor{
+        height: 350px;
+        padding: 0 10px;
+    }
+    
+    .containerConclusion header{
+        display: flex;
+        width: 90%;
+        max-width: 1150px;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        min-height: 150px;
+        margin-bottom: 20px;
+    }
+
+    .containerConclusion form #columnPrimary .rewardDestaque{
+        display: none;
+    }
+}
+
+@media (max-width: 660px) {
+
+    .containerConclusion form #columnPrimary .title{
+        font-size: 19px;
+        line-height: 22px;
+        color: #444;
+    }
+
+    .containerConclusion form footer #description{
+        font-size: 17px;
+        line-height: 20px;
+    }
+
+    .containerConclusion form footer{
+        margin-top: 20px;
+    }
+
+    .containerConfigModal {
+        height: 100vh;
+        margin: 0;
+        border-radius: 0px;
+    }
+
+    .containerConclusion .titleError{
+        font-size: 20px;
+        line-height: 24px;
+    }
+}
+
+@media (max-width: 560px) {
+    .containerConclusion form #columnPrimary .presentation,
+    .containerConclusion form #columnPrimary .presentation img,
+    .containerConclusion form #columnPrimary .presentation iframe{
+        width: 450px; 
+        height: 240px; 
+    }
+
+    .containerConclusion form #columnPrimary .divCloud{
+        height: 180px;
+    }
+
+    .containerConclusion form .moreProject{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        width: 95%;
+        max-width: 754px;
+    }
+
+    .containerConclusion form .moreProject div + div{
+        margin-top: 0;
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 520px) {
+    .containerConclusion form #columnPrimary .infor{
+        display: none;
+    }
+
+    .containerConclusion .division{
+        padding: 0 10px;
+    }
+
+    .containerConclusion form #columnPrimary .presentation,
+    .containerConclusion form #columnPrimary .presentation img,
+    .containerConclusion form #columnPrimary .presentation iframe{
+        width: 100%; 
+        height: 200px; 
+    }
+
+    .containerConclusion form #columnPrimary .divCloud{
+        height: 140px;
+    }
+
+    .containerConclusion form #columnPrimary #labelColor{
+       height: 300px;
+    }
+
+    .containerConclusion form #columnPrimary #labelColor h1{
+        font-size: 18px;
+        line-height: 20px;
+        margin-bottom: 15px;
+    }
+
+    .containerConclusion form #columnPrimary #labelColor #parag{
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .containerConclusion form #columnPrimary .inputTitle{
+        font-size: 18px;
+        line-height: 22px;
+        padding: 15px 15px;
+    }
+
+    .containerConclusion .editor {
+        max-width: 90vw;
+    }
+
+    .containerConclusion .titleError{
+        font-size: 16px;
+        line-height: 19px;
+    }
+    
+}
+
+@media (max-width: 380px) {
+    .containerConclusion form #columnPrimary .presentation,
+    .containerConclusion form #columnPrimary .presentation img,
+    .containerConclusion form #columnPrimary .presentation iframe{
+        width: 310px !important; 
+        height: 200px; 
+    }
+}

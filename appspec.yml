@@ -1,0 +1,17 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /home/ubuntu/kickante
+
+hooks:
+  BeforeInstall:
+    - location: codedeploy/BeforeInstall.sh
+  AfterInstall:
+    - location: codedeploy/npm-install.sh
+  ApplicationStop:
+    - location: codedeploy/ApplicationStop.sh
+  ApplicationStart:
+    - location: codedeploy/npm-start.sh
+  ValidateService:
+    - location: codedeploy/ValidateService.sh

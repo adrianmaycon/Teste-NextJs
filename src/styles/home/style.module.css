@@ -1,0 +1,85 @@
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container main {
+    width: 100%;
+    max-width: 1350px;
+    overflow: hidden;
+    padding: 0 2rem;
+}
+
+h1, h2, h3, h4, h5, h6, p, strong {
+    font-family: 'Lato';
+}
+
+.container main .description {
+    font-size: 31px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-weight: 500;
+    color: var(--color-text-description);
+    margin: 20px 0;
+}
+
+.container main #infoHeader {
+    width: 100%;
+    padding: 30px 0px; 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    flex-wrap: wrap-reverse;
+}
+
+.container main .boxCrowdfunding {
+    width: 100%;
+    max-width: 1300px;
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+    margin-bottom: 40px; 
+    flex-wrap: wrap
+}
+
+@media (max-width: 1300px) {
+
+    .container main {
+        width: 90%;
+    }
+}
+
+@media (max-width: 976px) {
+
+    .container main #infoHeader {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 650px) {
+    .container main {
+        padding: 0 ;
+    }
+
+    .container main #infoHeader {
+        padding: 20px 0px; 
+    }
+
+    .container main .boxCrowdfunding {
+        width: 100%;
+        display: flex; 
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 40px;
+    }    
+    
+    .container main .description {
+        font-size: 19px;
+        line-height: 24px;
+        text-align: start;
+    }
+}

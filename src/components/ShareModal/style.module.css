@@ -1,0 +1,149 @@
+.containerShare {
+    width: 100%;
+    max-width: 560px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 3px 5px 20px rgba(68, 68, 68, 0.5);
+    padding: 1.8rem;
+}
+
+.containerShare header{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.containerShare main{
+    width: 100%;
+}
+
+.containerShare main h1{
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+.containerShare main p{
+    font-size: 1.02rem;
+    line-height: 1.5rem;
+    margin-top: 1rem;
+}
+
+.containerShare main section{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.containerShare main section #facebook{
+    font-size: 2rem;
+    color: #3e5c9b;
+}
+
+.containerShare main section #twitter{
+    font-size: 2rem;
+    color: #1da1f2;
+}
+
+.containerShare main section #mail{
+    font-size: 2rem;
+    color: #333333;
+}
+
+.containerShare main section #whats{
+    font-size: 2rem;
+    color: #333333;
+}
+
+.containerShare main section #code{
+    font-size: 2rem;
+    color: #333333;
+}
+
+.containerShare main section #html,
+.containerShare main section a{
+    width: 25%;
+    margin: 15px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    color: #333333;
+}
+
+.containerShare main section #html p,
+.containerShare main section a p{
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.containerShare main section #html p:hover {
+    text-decoration: underline;
+}
+
+.containerShare .divider{
+    width: 100%;
+    height: 1px;
+    background-color: rgba(68, 68, 68, 0.3);
+    margin: 1.6rem 0;
+}
+
+.containerShare footer {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 1rem;
+    align-items: flex-end;
+}
+
+.containerShare footer label{
+    font-family: Lato;
+    font-size: 1rem;
+    line-height: 2rem;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+}
+.containerShare footer input{
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgba(68, 68, 68, 0.5);
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+.containerShare footer button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 40px;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: #02a95c;
+    border: 1px solid #02a95c;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+.containerShare footer button:hover{
+    background-color: #018849;
+    border: 1px solid #018849;
+}
+
+@media (max-width: 600px) {
+    .containerShare {
+        width: 100vw;
+        height: 100vh;
+        max-width: 100%;
+        background-color: #ffffff;
+        border-radius: 0px;
+        padding: 1.8rem;
+        margin-top: 50px;
+    }
+
+    .containerShare main h1{
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+}

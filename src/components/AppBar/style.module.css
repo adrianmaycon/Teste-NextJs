@@ -1,0 +1,18 @@
+.avatar {
+    width: 40px;
+    height: 40px;
+    background: #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+
+.logo {
+    height: 30px;
+}
+
+@media (max-width: 1150px) {
+
+    .logo {
+        height: 25px;
+    }
+}

@@ -1,0 +1,310 @@
+.containerCreate {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    width: 100%;
+    margin-top: -60px;
+}
+
+.containerCreate header{
+    display: flex;
+    width: 80%;
+    max-width: 1000px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.containerCreate header img{
+    width: 166px;
+    cursor: pointer;
+}
+
+.containerCreate header h4{
+    font-size: 20px;
+    line-height:  23px;
+    color: #444444;
+    cursor: pointer;
+}
+
+.containerCreate .rowTopo{
+    display: flex;
+    width: 90%;
+    max-width: 560px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.containerCreate .rowTopo h1{
+    font-size: 24px;
+    line-height:  38px;
+    text-align: center;
+    color: #006DE2;
+}
+
+.containerCreate .rowTopo span{
+    font-family: Lato;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #444444;
+}
+
+.containerCreate .rowTopo #descriptionMedal{
+    font-family: 'Lato', Arial, sans-serif;
+    font-size: 16px;
+    line-height:  20px;
+    text-align: center;
+    color: #05C471;
+    margin-top: 10px;
+}
+
+.containerCreate .rowTopo #medal{
+    width: 50px;
+    height: 54px;
+}
+
+.containerCreate .boxMessage{
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    box-shadow: 3px 5px 20px rgba(68, 68, 68, 0.12);
+    border-radius: 5px;
+    width: 90%;
+    max-width: 630px;
+    padding-top: 14px;
+    padding-left: 60px;
+    padding-right: 20px;
+    padding-bottom: 14px;
+    margin-top: 20px;
+}
+
+.containerCreate .boxMessage img{
+    width: 65px;
+    height: 65px;
+    border-radius: 25px;
+    margin-top: -100px;
+    margin-left: -90px;
+    margin-right: 20px;
+}
+
+.containerCreate #formContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.containerCreate #formContainer .titleForm{
+    font-size: 20px;
+    line-height:  23px;
+    text-align: center;
+    color: #444444;
+}
+
+.containerCreate .commentsContainer {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #FAFAFA;
+}
+
+.containerCreate .captacaoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 1300px;
+    padding-top: 40px;
+    margin-bottom: 40px;
+}
+
+.containerCreate .captacaoContainer .boxOrg {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 850px;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 30px;
+}
+
+.containerCreate .daysContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1300px;
+    width: 100%;
+    padding-top: 20px;
+    margin-bottom: 40px;
+}
+
+.containerCreate .lastContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1300px;
+    width: 100%;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.containerCreate .lastContainer .boxOrg {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 660px;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 30px;
+}
+
+.containerCreate .receiveContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1300px;
+    width: 100%;
+    padding-top: 20px;
+    margin-bottom: 80px;
+}
+
+.containerCreate .receiveContainer .boxInfoDate{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background: #FFFFFF;
+    box-shadow: 3px 5px 20px rgba(68, 68, 68, 0.12);
+    border-radius: 5px;
+    width: 100%;
+    max-width: 630px;
+    padding: 20px; 
+    margin-top: 20px;
+}
+
+.containerCreate .receiveContainer .org {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.containerCreate .receiveContainer .infoMob {
+    display: flex;
+    flex-direction: column;
+}
+
+.containerCreate .receiveContainer .infoMobtrue {
+    display: none;
+}
+
+@media (max-width: 970px) {
+    .containerCreate {
+        margin-top: -30px;
+    }
+
+    .containerCreate #formContainer {
+        width: 90%;
+    }
+
+    .containerCreate .commentsContainer {
+        display: none;
+    }
+
+}
+
+@media (max-width: 953px) {
+    .containerCreate .captacaoContainer .boxOrg {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .containerCreate .lastContainer .boxOrg {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .containerCreate .boxOrg .spaceBox{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .containerCreate .boxOrg .spaceBox + .spaceBox{
+        margin-top: 20px;
+    }
+}
+
+
+@media (max-width: 696px) {
+    .containerCreate .receiveContainer .spaceBox + .spaceBox{
+        margin-top: 20px;
+    }
+
+    .containerCreate .receiveContainer .org {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 15px;
+    }
+
+    .containerCreate .receiveContainer .boxInfoDate{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        max-width: 285px;
+        padding: 0px;
+        box-shadow: 0px 0px 0px rgba(255, 255, 255, 0.12);
+    }
+
+    .containerCreate .receiveContainer .infoMob {
+        display: none;
+    }
+
+    .containerCreate .receiveContainer .infoMobtrue {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 610px) {
+    .containerCreate .rowTopo h1{
+        font-size: 22px;
+        line-height:  30px;
+    }
+
+    .containerCreate .rowTopo span{
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .containerCreate .boxMessage{
+        padding: 14px 25px;
+    }
+
+    .containerCreate .boxMessage img{
+        display: none;
+    }
+
+    .containerCreate #formContainer .titleForm{
+        font-size: 18px;
+        line-height:  21px;
+        text-align: center;
+        color: #444444;
+    }
+}
